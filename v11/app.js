@@ -346,6 +346,7 @@ app.post("/signup", function(req, res){
     });
 });
 
+// use of multer to store profile images
 var Storage = multer.diskStorage({
      destination: function(req, file, callback) {
          callback(null, "./public/profileimages");

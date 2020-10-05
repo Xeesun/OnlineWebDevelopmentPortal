@@ -1,0 +1,2 @@
+- Designed & developed a portal that acts as a guide to freshers coming into DTU regarding various technical domains their resources and events.
+- Involved in the R&D work along with the core team, developed user interface using HTML, CSS, JS, Bootstrap and parts of backend.

@@ -1,14 +1,14 @@
 var express                =  require("express"),
-    mongoose               =  require("mongoose"),
-    passport               =  require("passport"),
-    User                   =  require("./models/user"),
-    Post                   =  require("./models/post"),
-    Comment                =  require("./models/comment"),
-    bodyParser             =  require("body-parser"),
-    LocalStrategy          =  require("passport-local"),
-    passportLocalMongoose  =  require("passport-local-mongoose"),
-    sendAlert              =  require('alert-node'),
-    multer                 =  require("multer");
+var mongoose               =  require("mongoose"),
+var passport               =  require("passport"),
+var User                   =  require("./models/user"),
+var Post                   =  require("./models/post"),
+var Comment                =  require("./models/comment"),
+var bodyParser             =  require("body-parser"),
+var LocalStrategy          =  require("passport-local"),
+var passportLocalMongoose  =  require("passport-local-mongoose"),
+var sendAlert              =  require('alert-node'),
+var multer                 =  require("multer");
     
 var app = express();
 
